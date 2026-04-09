@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Heart, MapPin, Phone, Sparkles, Calendar, Image as ImageIcon } from 'lucide-react'
+import { Phone, Calendar, Image as ImageIcon } from 'lucide-react'
 import MagazineCard from '@/components/MagazineCard'
 import { openWhatsAppChat, BUSINESS_DIRECTORY } from '@/lib/whatsapp'
 
@@ -117,7 +117,7 @@ export default function Home() {
                 🌯 WRAP IT UP! 🌯
               </div>
               <div className="text-sm md:text-base font-semibold text-slate-700">
-                $5 Crispinn' Chicken Wraps & Pepsi
+                $5 Crispinn&apos; Chicken Wraps & Pepsi
               </div>
               <div className="text-xs text-norton-gold mt-2">
                 Exclusive Delivery Offer - Order Now!
@@ -189,7 +189,7 @@ export default function Home() {
             >
               {[...Array(4)].map((_, i) => (
                 <span key={i} className="text-lg md:text-2xl font-bold gradient-text">
-                  🌯 $5 Crispinn' Chicken Wraps & Pepsi • Free Delivery •
+                  🌯 $5 Crispinn&apos; Chicken Wraps & Pepsi • Free Delivery •
                 </span>
               ))}
             </motion.div>
@@ -201,7 +201,7 @@ export default function Home() {
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <motion.div {...fadeInUp} className="mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Norton Town Awards <span className="gradient-text">'26</span>
+            Norton Town Awards <span className="gradient-text">&apos;26</span>
           </h2>
           <p className="text-xl text-slate-600">
             Celebrating excellence and imagination across our community
